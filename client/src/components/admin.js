@@ -102,7 +102,7 @@ export class Admin extends Component {
     };
 
     componentDidMount() {
-        axios.get('http://localhost:3333/admin').then((result) => {
+        axios.get('https://stock-exchange-00lx.onrender.com/admin').then((result) => {
             let partners = result.data.partners;
             for (let elem of partners) {
                 elem.papers = [];
