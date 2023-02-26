@@ -48,7 +48,7 @@ export function EnhancedTableToolbar(props) {
             method: 'POST',
             headers: {'Content-Type': 'application/x-www-form-urlencoded'},
             data: qs.stringify({brokers: selected}),
-            url: 'http://localhost:3333/delete'
+            url: 'https://stock-exchange-00lx.onrender.com/delete'
         };
         axios(options).then(res => {
             // console.log("res: ", res);
@@ -65,7 +65,7 @@ export function EnhancedTableToolbar(props) {
                 method: 'POST',
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                 data: qs.stringify({name: name_br, money: Number(money)}),
-                url: 'http://localhost:3333/editbroker'
+                url: 'https://stock-exchange-00lx.onrender.com/editbroker'
             };
             axios(options).then(r => {});
             dispatch(fetchBrokers());

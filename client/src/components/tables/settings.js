@@ -15,12 +15,12 @@ export class Settings extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3333/admin').then((result) => {
+        axios.get('https://stock-exchange-00lx.onrender.com/admin').then((result) => {
             this.setState({brokers: result.data.partners});
         });
     }
     delBroker(name){
-        axios.get('http://localhost:3333/admin').then((result) => {
+        axios.get('https://stock-exchange-00lx.onrender.com/admin').then((result) => {
             this.setState({brokers: result.data.partners});
         });
     }
