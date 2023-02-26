@@ -6,7 +6,7 @@ async function bootstrap() {
     app.enableCors({
         origin: 'https://stockexchange-6a9t.onrender.com/',
         methods: 'GET,POST,PUT',
-        allowedHeaders: 'Content-Type, Accept, Access-Control-Allow-Headers, Authorization',
+        allowedHeaders: 'Content-Type, Accept, Access-Control-Allow-Headers, Authorization, Access-Control-Allow-Origin',
         credentials: true
     });
     await app.listen(3333);
