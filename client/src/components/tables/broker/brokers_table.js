@@ -117,7 +117,7 @@ export default function EnhancedTable(props) {
             method: 'POST',
             headers: {'Content-Type': 'application/x-www-form-urlencoded'},
             data: qs.stringify({name: userName, money: Number(userMoney), email: userEmail}),
-            url: 'https://stock-exchange-00lx.onrender.com/addbroker'
+            url: 'https://stock-exchange-8of7.onrender.com/addbroker'
         };
         axios(options).then(r => {});
         dispatch(fetchBrokers());
