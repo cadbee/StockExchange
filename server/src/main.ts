@@ -4,7 +4,7 @@ import {AppModule} from './app.module';
 async function bootstrap() {
     const app = await NestFactory.create(AppModule);
     app.enableCors({
-        origin: 'https://stockexchange-6a9t.onrender.com/',
+        origin: '*',
         methods: 'GET,POST,PUT',
         allowedHeaders: 'Content-Type, Accept, Access-Control-Allow-Headers, Authorization, Access-Control-Allow-Origin',
         credentials: true
