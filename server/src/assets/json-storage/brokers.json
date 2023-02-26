@@ -1,0 +1,30 @@
+{
+  "aleksey@gmail.com": {
+    "name": "Aleksey Pavlovich Pozov",
+    "balance": 21566.1095
+  },
+  "elena@gmail.com": {
+    "name": "Elena Konstantinivna Zlo",
+    "balance": 604.616
+  },
+  "kirill@gmail.com": {
+    "name": "Nikita Kirillovich Toropov",
+    "balance": 8925.016
+  },
+  "vladimir@gmail.com": {
+    "name": "Vladimir Ivanovich Pog",
+    "balance": 87097.016
+  },
+  "pavel@gmail.com": {
+    "name": "Pavel Artyomovich Shust",
+    "balance": 58.1804
+  },
+  "anna@gmail.com": {
+    "name": "Anna Igorevna Smirnova",
+    "balance": 2885.065
+  },
+  "aschiam.net@gmail.com": {
+    "name": "Artyom Vasilievich Smirnov",
+    "balance": 379.8415
+  }
+}

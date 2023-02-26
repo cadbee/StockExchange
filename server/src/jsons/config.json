@@ -1,0 +1,103 @@
+{
+  "partners": [
+    {
+      "name": "Vladimir Ivanovich Pog",
+      "money": 999,
+      "email": "vladimir@gmail.com"
+    },
+    {
+      "name": "Pavel Artyomovich Shust",
+      "money": 5000000,
+      "email": "pavel@gmail.com"
+    },
+    {
+      "name": "Anna Igorevna Smirnova",
+      "money": 389713,
+      "email": "anna@gmail.com"
+    },
+    {
+      "name": "Aleksey Pavlovich Pozov",
+      "money": 21566.1095,
+      "email": "aleksey@gmail.com"
+    },
+    {
+      "name": "Elena Konstantinivna Zlo",
+      "money": 0,
+      "email": "elena@gmail.com"
+    },
+    {
+      "name": "Nikita Kirillovich Toropov",
+      "money": 9898,
+      "email": "kirill@gmail.com"
+    },
+    {
+      "name": "Artyom Vasilievich Smirnov",
+      "money": 923.93,
+      "email": "aschiam.net@gmail.com"
+    }
+  ],
+  "papers": [
+    {
+      "name": "APPL",
+      "rule": "нормальный",
+      "max": 10900,
+      "count": 3000,
+      "startPrice": 245901
+    },
+    {
+      "name": "AMZN",
+      "rule": "равномерный",
+      "max": 5000,
+      "count": 800,
+      "startPrice": 33333
+    },
+    {
+      "name": "AMD",
+      "rule": "нормальный",
+      "max": 3000,
+      "count": 56832,
+      "startPrice": 5987
+    },
+    {
+      "name": "CSCO",
+      "rule": "нормальный",
+      "max": 3000,
+      "count": 56832,
+      "startPrice": 5987
+    },
+    {
+      "name": "MSFT",
+      "rule": "нормальный",
+      "max": 3000,
+      "count": 56832,
+      "startPrice": 5987
+    },
+    {
+      "name": "QCOM",
+      "rule": "нормальный",
+      "max": 3000,
+      "count": 56832,
+      "startPrice": 5987
+    },
+    {
+      "name": "SBUX",
+      "rule": "нормальный",
+      "max": 3000,
+      "count": 56832,
+      "startPrice": 5987
+    },
+    {
+      "name": "TSLA",
+      "rule": "нормальный",
+      "max": 3000,
+      "count": 56832,
+      "startPrice": 5987
+    }
+  ],
+  "settings": {
+    "start": "20:34",
+    "next_date": "",
+    "end": "18:00",
+    "interval": "5"
+  }
+}
